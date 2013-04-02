@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/pda_bg"
+              android:orientation="vertical">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/pda_bg"
+            android:id="@+id/tb_pda_run_show">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pda_titlebg">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="标记"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="站名"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="限速"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="区停"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="辆数"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="司机"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="吨位"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="计长"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="到时"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="发时"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/pda_bg"
+            android:id="@+id/tb_pda_run_record">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pda_titlebg">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="标记"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="站名"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="限速"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="区停"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="辆数"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="司机"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="吨位"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="计长"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="到时"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="发时"
+                    android:textColor="#ffffff"
+                    android:textSize="16px"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+            <EditText
+                    android:id="@+id/et_flag"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/pda_txt2"
+                    android:maxLength="4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:textSize="16px"/>
+
+            <EditText
+                    android:id="@+id/et_station_name"
+                    android:layout_width="15px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/pda_txt2"
+                    android:editable="true"
+                    android:maxLength="4"
+                    android:lines="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:ellipsize="end"
+                    android:textSize="16px"/>
+
+            <EditText
+                    android:id="@+id/et_speed_limit"
+                    android:layout_width="15px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/pda_txt2"
+                    android:editable="true"
+                    android:maxLength="6"
+                    android:lines="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:inputType="numberDecimal"
+                    android:ellipsize="end"
+                    android:textSize="16px"/>
+
+            <EditText
+                    android:id="@+id/et_part_interval"
+                    android:layout_width="15px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/pda_txt2"
+                    android:editable="true"
+                    android:maxLength="6"
+                    android:lines="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:inputType="numberDecimal"
+                    android:ellipsize="end"
+                    android:textSize="16px"/>
+
+            <EditText
+                    android:id="@+id/et_car_count"
+                    android:layout_width="15px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/pda_txt2"
+                    android:editable="true"
+                    android:maxLength="4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:textColor="#000"
+                    android:inputType="number"
+                    android:ellipsize="end"
+                    android:textSize="16px"/>
+
+            <EditText
+                    android:id="@+id/et_station_driver"
+                    android:layout_width="15px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/pda_txt2"
+                    android:editable="true"
+                    android:maxLength="4"
+                    android:lines="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:ellipsize="end"
+                    android:textSize="16px"/>
+
+            <EditText
+                    android:id="@+id/et_car_tonnage"
+                    android:layout_width="15px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/pda_txt2"
+                    android:width="10dp"
+                    android:editable="true"
+                    android:lines="1"
+                    android:maxLength="6"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:inputType="numberDecimal"
+                    android:ellipsize="end"
+                    android:textSize="16px"/>
+
+            <EditText
+                    android:id="@+id/et_length_count"
+                    android:layout_width="15px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/pda_txt2"
+                    android:editable="true"
+                    android:maxLength="4"
+                    android:lines="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:inputType="number"
+                    android:ellipsize="end"
+                    android:textSize="16px"/>
+
+            <Button
+                    android:id="@+id/btn_part_time"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/pda_txt3"
+                    android:layout_width="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:paddingLeft="2dp"
+                    android:hint="选择时间"
+                    android:paddingRight="2dp"
+                    android:textColor="#000"
+                    android:textSize="16px"/>
+
+            <Button
+                    android:id="@+id/btn_off_time"
+                    android:layout_height="wrap_content"
+                    android:layout_width="150dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/pda_txt3"
+                    android:hint="选择时间"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textSize="16px"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:width="100dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="16px"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="站"
+                android:textColor="#000000"
+                android:textSize="16px"/>
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="冲风时间 : "
+                android:textColor="#000000"
+                android:textSize="16px"/>
+
+        <Button
+                android:id="@+id/btn_charge_wind_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pda_txt"
+                android:gravity="center"
+                android:hint="单击计时"
+                android:textColor="#000000"
+                android:lines="1"
+                android:textSize="16px"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="排风时间 : "
+                android:textColor="#000000"
+                android:textSize="16px"/>
+
+        <Button
+                android:id="@+id/btn_discharge_wind_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pda_txt"
+                android:ems="10"
+                android:lines="1"
+                android:hint="单击计时"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="16px"/>
+
+    </LinearLayout>
+
+</LinearLayout>

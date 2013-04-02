@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="310dp"
+              android:layout_height="wrap_content"
+              android:background="#eee"
+              android:padding="5dp"
+              android:gravity="center">
+
+    <TextView
+            android:id="@+id/tv_select_line"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:text="线路选择"
+            android:textColor="#000"
+            android:gravity="center"/>
+    <GridLayout
+            android:id="@+id/gl_checkbox_line_options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:gravity="center">
+    </GridLayout>
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:text="选择起始站"/>
+    </LinearLayout>
+    <Spinner
+            android:id="@+id/sp_line_first_station"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/pda_opt"/>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:text="选择终点站"/>
+    </LinearLayout>
+
+    <Spinner
+            android:id="@+id/sp_line_last_station"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:background="@drawable/pda_opt"/>
+
+</LinearLayout>
